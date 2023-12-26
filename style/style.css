@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #E55473;
     color: white;
     padding: 20px 40px;
@@ -14,48 +15,55 @@
 
 
 }
-header{
+
+header {
     background-color: #E554731A;
     margin-bottom: 100px;
 
 }
-.hero{
+
+.hero {
     display: flex;
     align-items: center;
     gap: 50px;
     width: 1440px;
     margin: 0 auto;
 }
-.hero h2{
+
+.hero h2 {
     color: #272727;
     font-size: 80px;
     font-family: Lato;
     font-weight: 800;
 }
-.hero p{
+
+.hero p {
     color: #27272799;
     font-size: 18px;
     font-weight: 400;
     line-height: 36px;
     margin: 30px 0 50px 0;
 }
+
 /* main{
     width: 1440px;
     margin: 0 auto;
 } */
-.flower{
-    margin-bottom: 200px!important;
+.flower {
+    margin-bottom: 200px !important;
     width: 1440px;
     margin: 0 auto;
 }
-.flower-title{
+
+.flower-title {
     font-size: 40px;
     color: #272727;
     text-align: center;
     font-weight: 800;
     margin-bottom: 25px;
 }
-.flower > p{
+
+.flower>p {
     color: #27272799;
     font-size: large18px;
     font-weight: 400;
@@ -63,17 +71,20 @@ header{
     text-align: center;
     margin-bottom: 50px;
 }
-.flower-box{
+
+.flower-box {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
 }
-.flower-box img{
+
+.flower-box img {
     width: 100%;
     height: 100%;
 }
-.box1{
+
+.box1 {
     padding: 100px 80px 0 80px;
     background-color: #A7216226;
     border-radius: 400px 400px 0 0;
@@ -82,23 +93,25 @@ header{
     height: 538px;
 }
 
-.box2{
+.box2 {
     padding: 100px 80px 0 80px;
     background-color: #0597A026;
     border-radius: 400px 400px 0 0;
     text-align: center;
     width: 464px;
     height: 538px;
-    
+
 }
-.box3{
+
+.box3 {
     padding: 100px 80px 0 80px;
     background-color: #477D1126;
     border-radius: 400px 400px 0 0;
     text-align: center;
     height: 538px;
 }
-.box-title{
+
+.box-title {
     text-align: center;
     text-decoration: underline;
     margin-top: 30px;
@@ -107,11 +120,13 @@ header{
     font-size: 24px;
     font-weight: 700;
 }
-.support-box{
+
+.support-box {
     width: 1440px;
     margin: 0 auto;
 }
-.support{
+
+.support {
     background-color: #2727270D;
     display: flex;
     justify-content: space-evenly;
@@ -119,17 +134,20 @@ header{
     align-items: center;
     text-align: center;
 }
-.support h4{
+
+.support h4 {
     color: #272727CC;
     font-size: 24px;
     line-height: 35px;
     font-weight: 600;
     margin-top: 25px;
 }
-.sell{
+
+.sell {
     background-color: #E554730D;
 }
-.sell-items{
+
+.sell-items {
     width: 1440px;
     margin: 100px auto;
     display: flex;
@@ -138,48 +156,57 @@ header{
     text-align: center;
     padding: 100px 0;
 }
-.sell-items div{
+
+.sell-items div {
     width: 50%;
 }
-.sell-title{
+
+.sell-title {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 25px;
 }
-.sell-title span{
+
+.sell-title span {
     color: #E55473;
     font-size: 40px;
     font-weight: 800;
 }
-.sell-sub-title{
+
+.sell-sub-title {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 50px;
 }
-.insta{
+
+.insta {
     text-align: center;
     margin-bottom: 100px;
 }
-.insta h2{
+
+.insta h2 {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 25px;
 }
-.insta p{
+
+.insta p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 40px;
 }
-.insta-img img{
+
+.insta-img img {
     margin-right: 25px;
 }
-.sub{
-    background-image: url(/Rectangle\ 9.png);
+
+.sub {
+    background-image: url(../Rectangle\ 9.png);
     width: 1440px;
     height: 449px;
     margin: 0 auto;
@@ -190,20 +217,23 @@ header{
     margin-bottom: 100px;
 
 }
-.sub h2{
+
+.sub h2 {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 15px;
 }
-.sub p{
+
+.sub p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 40px;
 }
-.sub input[type="email"]{
+
+.sub input[type="email"] {
     border-radius: 8px;
     background: #FFF;
     width: 700px;
@@ -214,7 +244,8 @@ header{
     font-size: 16px;
     font-weight: 400;
 }
-.sub input[type="submit"]{
+
+.sub input[type="submit"] {
     background-color: #E55473;
     color: white;
     padding: 20px 40px;
@@ -223,7 +254,8 @@ header{
     border: none;
     margin-left: 15px;
 }
-footer{
+
+footer {
     background-color: #111010;
     display: flex;
     justify-content: center;
@@ -231,23 +263,27 @@ footer{
     text-align: center;
     height: 450px;
 }
-.footer-title{
+
+.footer-title {
     color: white;
     font-size: 48px;
     font-weight: 800;
     margin-bottom: 25px;
 }
-.footer-title span{
+
+.footer-title span {
     color: #E55473;
 }
-.footer-sub{
+
+.footer-sub {
     color: #FFFFFFE5;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 30px;
 }
-.copyright{
+
+.copyright {
     color: #FFFFFF66;
     font-size: 16px;
     font-weight: 400;
